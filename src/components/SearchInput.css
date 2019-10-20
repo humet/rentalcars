@@ -1,0 +1,90 @@
+label {
+  color: #444;
+  font-size: 14px;
+  width: 100%;
+  padding: 0 0 4px;
+  display: block;
+  line-height: 1.25rem;
+}
+
+input {
+  -webkit-appearance: none;
+  border-radius: 4px;
+  border: 1px rgb(200, 174, 91) solid;
+  box-sizing: border-box;
+  font-family: "Open Sans", "Segoe UI", Tahoma, sans-serif;
+  height: 48px;
+  font-size: 1rem;
+  padding: 8px 16px;
+  width: 100%;
+}
+
+input::placeholder {
+  font-size:.875rem
+}
+
+input::-webkit-input-placeholder {
+  font-size:.875rem
+}
+
+input:-moz-placeholder { /* Firefox 18- */
+  font-size:.875rem
+}
+
+input::-moz-placeholder {  /* Firefox 19+ */
+  font-size:.875rem
+}
+
+input:-ms-input-placeholder {
+  font-size:.875rem
+}
+
+.search-input {
+  position: relative;
+}
+
+.results {
+  height: 100px;
+  background: #fff;
+  width: 100%;
+  display: none;
+  position: absolute;
+}
+
+.results--show {
+  display: block;
+}
+
+.results ul {
+  margin: 0;
+  padding: 0;
+}
+
+.results li {
+  list-style-type: none;
+  margin: 0;
+  padding: 8px 16px;
+  border-bottom: 1px solid #b4b4b4;
+  border-right: 1px solid #b4b4b4;
+  border-left: 1px solid #b4b4b4;
+}
+
+.results li .results__result {
+  display: flex;
+  text-decoration: none;
+  color: #333;
+}
+
+.results li:hover {
+  background-color: #e7f4fe;
+}
+
+.results h3 {
+  margin: 0;
+  font-size: 14px;
+}
+
+.results p {
+  margin: 0;
+  font-size: 12px;
+}
